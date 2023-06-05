@@ -31,11 +31,11 @@ export const FirstApp = ({ title, subTitle, name }) => {
 
 FirstApp.propTypes = {
   title: PropTypes.string.isRequired,
-  subTitle: PropTypes.string,
+  subTitle: PropTypes.string.isRequired,
 };
 
 FirstApp.defaultProps = {
+  name: 'Christopher Vasco',
   title: 'No hay titulo',
-  subTitle: 'No hay subtitulo',
-  name: 'Christopher Vasco'
+  // subTitle: 'No hay subtitulo',
 }

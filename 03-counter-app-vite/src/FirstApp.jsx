@@ -24,14 +24,15 @@ export const FirstApp = ({ title, subTitle, name }) => {
     <>
       <h1>Hola {name}</h1>
       <h2>{title}</h2>
-      <p>{subTitle}</p>
+      <h2>{title}</h2>
+      <p data-testid='test-subtitle'>{subTitle}</p>
     </>
   );
 };
 
 FirstApp.propTypes = {
   title: PropTypes.string.isRequired,
-  subTitle: PropTypes.string.isRequired,
+  subTitle: PropTypes.string,
 };
 
 FirstApp.defaultProps = {

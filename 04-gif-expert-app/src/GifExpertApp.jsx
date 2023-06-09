@@ -1,7 +1,13 @@
 export const GifExpertApp = () => {
   return (
     <>
-      <div>GifExpertApp</div>
+      {/* titulo */}
+      <h1>GifExpertApp</h1>
+
+      {/* Input */}
+
+      {/* Listado de Gifs */}
+                {/* Gif Item */}
     </>
   );
 };

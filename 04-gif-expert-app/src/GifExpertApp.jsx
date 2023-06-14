@@ -15,6 +15,8 @@ export const GifExpertApp = () => {
 
     // setCategories(newCategory => [...newCategory, 'Valorant'])
 
+    if(categories.includes(newCategory)) return
+
     setCategories([newCategory, ...categories])
   }
 

@@ -6,9 +6,10 @@ export const GifGrid = ({ category }) => {
 
   useEffect(() => {
     getGifs(category);
-    
+
     return 
-  }, []);
+  }, []); //La dependencia vacía [] asegura que el efecto se ejecute solo una vez al cargar el componente
+
 
   return (
     <>

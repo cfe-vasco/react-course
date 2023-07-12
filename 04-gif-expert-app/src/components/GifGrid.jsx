@@ -5,10 +5,10 @@ export const GifGrid = ({ category }) => {
   const [counter, setCounter] = useState(10);
 
   useEffect(() => {
+
     getGifs(category);
 
-    return 
-  }, []); //La dependencia vacía [] asegura que el efecto se ejecute solo una vez al cargar el componente
+  }, [ ]); //La dependencia vacía [] asegura que el efecto se ejecute solo una vez al cargar el componente
 
 
   return (
